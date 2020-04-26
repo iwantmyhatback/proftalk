@@ -1,1 +1,3 @@
-# proftalk
+# Proftalk
+
+Scheduling module mockup for an existing education management system, designed to allow professors to open availabilty slots and allow students to select appointment slots from the available un-taken slots. Changes write to a MariaDB database, and site shows scheduled appointments as well as professors for the logged in account if the account is a student, site will show scheduled appointments and students for the logged in account if the account is a professor. Working model was requested inside of a two week window with emphasis placed on basic functionality rather than visual appeal or features suite.
