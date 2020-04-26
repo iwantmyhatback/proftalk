@@ -1,0 +1,154 @@
+body {
+  background-color: #f3f3f3;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.navlinks {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  float: left;
+  display: flex; /* for center aligning menu */
+  align-items: center; /* for center aligning menu */
+  color: #f2f2f2;
+  text-align: left;
+  padding-left: 10px; /* spacing between words */
+  padding-right: 10px; /* spacing between words */
+  text-decoration: none;
+}
+
+.navlinksright {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120%;
+  float: right; /* keeping 'signup' on the far right */
+  display: flex; /* forcing no line breaks */
+  align-items: center;
+  color: #f2f2f2;
+  text-align: left;
+  padding-left: 10px; /* spacing 'signup' away from edge */
+  padding-right: 10px; /* spacing away from login button */
+  text-decoration: none;
+}
+
+.navlinks li {
+  float: left;
+  list-style-type: none;
+}
+
+/* mouse-over */
+.navbar a:hover {
+  padding-top: 6px; /* fixing top highlight */
+  background: #ddd;
+  color: black;
+}
+
+.navbar form {
+  text-align: right;
+  display: inline;
+}
+
+.barleft {
+  text-align: left;
+}
+
+.barright {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120%;
+  float: right;
+  display: inline;
+  color: #f2f2f2;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+.main {
+  margin-top: 90px; /* Add a top margin to avoid content overlay */
+  text-align: center;
+}
+
+.indexmain {
+  /* not in use currently due to top margin/padding issues */
+  padding-top: 20px;
+  background-color: #ffffff;
+  margin: 0px 40px 0px 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 175%;
+  /*height: 100%;*/
+}
+
+.stdmain {
+  padding-top: 30px;
+  background-color: #ffffff;
+  margin: 0px 40px 0px 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  height: 100%;
+}
+
+.myhead {
+  font-size: 250%;
+}
+
+.account-act {
+  margin: 0px 80px 0px 80px;
+  text-align: left;
+  display: inline-block;
+}
+.account-act h {
+  margin: 0px 80px 0px 80px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.account-class {
+  margin: 0px 80px 0px 80px;
+  text-align: left;
+  display: inline-block;
+}
+
+.account-class h {
+  margin: 0px 80px 0px 80px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.account-appt {
+  margin: 0px 80px 0px 80px;
+  text-align: left;
+  display: inline-block;
+}
+
+.account-appt h {
+  margin: 0px 80px 0px 80px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+@font-face {
+  font-family: Arial, Helvetica, sans-serif;
+  src: url('fonts/attentica.ttf');
+}
+
+body {
+  margin: 0;
+}
